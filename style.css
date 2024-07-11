@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+--primary-color: #AB6034;
+--secondary-color: #F4F2F1;
+--black-color:#0C0B0B;
+--dark-color:#1D1B1A
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.theme-btn{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+.text-primary{
+    color: var(--primary-color) !important;
+}
+.bg-dark{
+    background-color:var(--dark-color) !important;
+}
+.bg-black{
+    background-color: var(--black-color) !important;
+}
+nav .nav-link{
+    color: #F4F2F1;
+    font-weight: 400;
+    padding: 0 30px !important;
+}
+
+.carousel{
+    position: relative;
+    overflow: hidden    ;
+}
+.carousel h5{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+}
+.carousel>button i{
+    background-color: #303030;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+
+}
+.carousel-shape::after,.carousel-shape::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background: var(--primary-color);
+    transform: rotate(45deg);
+    z-index: 1;
+    
+}
+.start.carousel-shape::after{
+    height:30vw;
+    width:13vw;
+    opacity: 0.6;
+    left: -3vw;
+    top: -9vw;
+}
+.start.carousel-shape::before{
+    height: 25vw;
+    width: 11vw;
+    opacity: 0.8;
+    left: -4vw;
+    top: -9vw;
+}
+.end.carousel-shape::after{
+    height:30vw;
+    width:13vw;
+    opacity: 0.6;
+    
+    right: -3vw;
+    bottom: -9vw;
+}
+.end.carousel-shape::before{
+    height: 25vw;
+    width: 11vw;
+    opacity: 0.8;
+    right: -4vw;
+    bottom: -9vw;
+}
+.carousel-caption {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.carousel-caption::before{
+content: "";
+position: absolute;
+height: 0;
+width: 0;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+box-shadow: 0 0 130px 135px var(--primary-color);
+z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////// footer ///////////////////////////////// */
+footer img {
+    width: 180px;
+}
+footer{
+    font-family: "Cormorant Garamond", serif;
+}
+footer p{
+    font-family: "Roboto", sans-serif;
+    color: #f4f2f19f;
+}
