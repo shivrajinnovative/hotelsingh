@@ -7,7 +7,7 @@
 --dark-color:#1D1B1A
 }
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif ;
 }
 .theme-btn{
     background:linear-gradient(to right bottom, var(--primary-color) 50%,var(--secondary-color)50%);
@@ -55,12 +55,14 @@ body{
     color: var(--secondary-color) !important;
 }
 nav .nav-link{
-    color: #F4F2F1;
-    font-weight: 400;
+    font-family: "Cormorant Garamond", serif;
+    color: #515151b9;
+    font-weight: bold;
     padding: 0 30px !important;
 }
 nav .active{
-    border-bottom: 2px solid white;
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(59, 59, 59);
 }
 @media(max-width:600px){
     .navbar{
@@ -213,6 +215,29 @@ nav .active{
 
 
 
+
+.amenities>div{
+    height: 120px;
+    width: 200px;
+}
+.amenities img{
+    height: 50px;
+    width: 50px;
+}
+
+@media (max-width:500px){
+    .amenities>div{
+        height: 80px;
+        width: 120px;
+    }
+    .amenities p{
+        font-size: 14px !important; 
+    }
+    .amenities img{
+        height: 28px;
+        width: 28px;
+    }
+}
 
 
 

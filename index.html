@@ -30,7 +30,7 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg px-md-5 z-3 w-100 navbar-dark position-fixed"
+      class="navbar navbar-expand-lg px-md-5 z-3 w-100 navbar-light bg-white position-fixed"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -50,26 +50,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 px-4 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link fs-5 active" aria-current="page" href="#"
+              <a class="nav-link fs-4 active" aria-current="page" href="#"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-5" href="#">About us</a>
+              <a class="nav-link fs-4" href="#">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-5" href="#">Rooms </a>
+              <a class="nav-link fs-4" href="#">Rooms </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-5" href="#">Gallery </a>
+              <a class="nav-link fs-4" href="#">Gallery </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-5" href="#">Contact us </a>
+              <a class="nav-link fs-4" href="#">Contact us </a>
             </li>
           </ul>
           <div class="d-flex align-items-center">
             <i class="fa-solid fa-phone mx-1 fs-2 text-primary"></i>
-            <h5 class="mx-4 text-white">+000 (123) 456 78</h5>
+            <h4 class="mx-3">+91 95944 41932</h4>
             <button class="theme-btn" type="submit">
               Book Now <i class="fa-solid fa-chevron-right fs-6"></i>
             </button>
@@ -172,6 +172,7 @@
                 type="text"
                 onfocus="this.type='date'"
                 placeholder="Check In"
+                class="text-white"
               />
               <input
                 type="text"
@@ -199,38 +200,93 @@
         </div>
       </div>
 
+      <h3 class="text-center ff-cormorant fs-1 fw-bolder text-primary py-md-3">Our Amazing Amenities</h3>
       <div
-        class="container d-flex flex-wrap ff-cormorant justify-content-around"
+        class="container amenities d-flex flex-wrap ff-cormorant justify-content-around"
       >
         <div
-          class="bg-white shadow-sm py-3 py-md-4 px-4 px-md-5 m-2 m-md-3 text-center hover-primary"
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
         >
-          <i class="fa-solid fa-wifi text-primary fs-2 m-3"></i>
-          <p class="mb-0 fs-4 fw-bolder">Fast Wifi</p>
+          <img src="./asset/amenities/conferenceRoom.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Conference Room</p>
         </div>
         <div
-          class="bg-white shadow-sm py-3 py-md-4 px-4 px-md-5 m-2 m-md-3 text-center hover-primary"
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
         >
-          <i class="fa-solid fa-wifi text-primary fs-2 m-3"></i>
-          <p class="mb-0 fs-4 fw-bolder">Fast Wifi</p>
+          <img src="./asset/amenities/wifi.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Free Wi-Fi</p>
         </div>
         <div
-          class="bg-white shadow-sm py-3 py-md-4 px-4 px-md-5 m-2 m-md-3 text-center hover-primary"
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
         >
-          <i class="fa-solid fa-wifi text-primary fs-2 m-3"></i>
-          <p class="mb-0 fs-4 fw-bolder">Fast Wifi</p>
+          <img src="./asset/amenities/ledtv.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Smart LED TV</p>
         </div>
         <div
-          class="bg-white shadow-sm py-3 py-md-4 px-4 px-md-5 m-2 m-md-3 text-center hover-primary"
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
         >
-          <i class="fa-solid fa-wifi text-primary fs-2 m-3"></i>
-          <p class="mb-0 fs-4 fw-bolder">Fast Wifi</p>
+          <img src="./asset/amenities/ac.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Air Conditioning</p>
         </div>
         <div
-          class="bg-white shadow-sm py-3 py-md-4 px-4 px-md-5 m-2 m-md-3 text-center hover-primary"
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
         >
-          <i class="fa-solid fa-wifi text-primary fs-2 m-3"></i>
-          <p class="mb-0 fs-4 fw-bolder">Fast Wifi</p>
+          <img src="./asset/amenities/workSpace.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Work Space</p>
+        </div>
+        <div
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
+        >
+          <img src="./asset/amenities/toiletriesKit.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Toiletries Kit</p>
+        </div>
+        <div
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
+        >
+          <img src="./asset/amenities/teaCoffe.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Tea/Coffee Maker</p>
+        </div>
+        <div
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
+        >
+          <img src="./asset/amenities/hotColdWater.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Hot/Cold Water</p>
+        </div>
+        <div
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
+        >
+          <img src="./asset/amenities/roomService.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Room Service</p>
+        </div>
+        <div
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
+        >
+          <img src="./asset/amenities/safetyLocker.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Safety Lockers <span class="text-primary">*</span></p>
+        </div>
+        <div
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
+        >
+          <img src="./asset/amenities/miniFridge.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Mini Fridge <span class="text-primary">*</span></p>
+        </div>
+        <div
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
+        >
+          <img src="./asset/amenities/laundryService.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Laundry Service <span class="text-primary">*</span></p>
+        </div>
+        <div
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
+        >
+          <img src="./asset/amenities/vehicle.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Vehicle Parking </p>
+        </div>
+        <div
+          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
+        >
+          <img src="./asset/amenities/generator.svg" alt="">
+          <p class="mb-0 fs-5 fw-bold">Full Generator Backup</p>
         </div>
       </div>
     </section>
@@ -238,17 +294,30 @@
     <section>
       <div class="container py-5">
         <div class="row">
-          <div class="col-lg-7"></div>
-          <div class="col-lg-5 p-4 p-md-5">
+          <div class="col-sm-4 mx-auto pt-5 pt-md-5">
+            <img src="./asset/images/about.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 p-4 p-md-5">
             <h5 class="mb-3 text-primary">About Company</h5>
             <h3 class="ff-cormorant fw-bolder fs-1">
-              World Class Luxury Hotel & Restaurant Near City and Best Host For
-              Your Comfort
+             <span class="text-primary"> Welcome to Hotel Singhs -</span> Your Premier Boutique Hotel in Vashi Navi Mumbai
             </h3>
-            <p class="my-4">
-              We denounce with righteous indignation and dislike men beguiledey
-              and demoralized by the charms of pleasure of the moment
-            </p>
+            <p>Welcome to Hotel Singhs, the premier boutique hotel in Vashi Navi Mumbai, where luxury and
+              comfort converge in the heart of the city. Our mission is to provide a seamless and unforgettable
+              experience for every guest, with a wide array of amenities designed for your utmost comfort and
+              enjoyment.</p>
+              <p>From hassle-free parking to 24/7 check-in, our friendly staff is here to greet you with warmth and
+                professionalism. Enjoy the cool ambiance provided by our top-notch air conditioning, indulge in
+                a sumptuous breakfast to start your day right, and stay entertained with in-room televisions
+                offering a variety of channels. For your peace of mind, each room comes equipped with a safe
+                to secure your valuables.</p>
+                <p>Our amenities are tailored to meet all your needs, ensuring a comfortable and delightful stay.
+                  Recharge at our coffee bar with premium blends, stay connected with high-speed wifi, and
+                  make use of our well-equipped workspaces. Our elevator provides easy access to all floors,
+                  accommodating guests of all mobilities.</p>
+                  <p>With dedicated room service available around the clock, we are committed to exceeding your
+                    expectations and creating cherished memories during your stay. Discover a new level of luxury
+                    and hospitality at our boutique hotel – your exquisite home away from home.</p>
             <button class="theme-btn">
               Learn More Us <i class="fa-solid fa-chevron-right fs-6"></i>
             </button>
@@ -325,7 +394,7 @@
           </div>
 
           <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>01</p>
+            <p>02</p>
             <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
             <p class="my-3">
               Blinded by desirec that cannot foresies trouble bounde
@@ -334,7 +403,7 @@
           </div>
 
           <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>01</p>
+            <p>03</p>
             <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
             <p class="my-3">
               Blinded by desirec that cannot foresies trouble bounde
@@ -343,7 +412,7 @@
           </div>
 
           <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>01</p>
+            <p>04</p>
             <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
             <p class="my-3">
               Blinded by desirec that cannot foresies trouble bounde
@@ -352,7 +421,7 @@
           </div>
 
           <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>01</p>
+            <p>05</p>
             <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
             <p class="my-3">
               Blinded by desirec that cannot foresies trouble bounde
@@ -361,7 +430,7 @@
           </div>
 
           <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>01</p>
+            <p>06</p>
             <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
             <p class="my-3">
               Blinded by desirec that cannot foresies trouble bounde
@@ -509,13 +578,13 @@
           dots: true,
           responsive: {
             0: {
-              items: 1, // Mobile
+              items: 1, 
             },
             600: {
-              items: 2, // Tablet
+              items: 2, 
             },
             1000: {
-              items: 4, // Desktop
+              items: 4, 
             },
           },
         });
