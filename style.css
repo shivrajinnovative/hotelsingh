@@ -10,7 +10,7 @@ body{
     font-family: "Roboto", sans-serif ;
 }
 .theme-btn{
-    background:linear-gradient(to right bottom, var(--primary-color) 50%,var(--secondary-color)50%);
+    background:linear-gradient(to right bottom, var(--primary-color) 50%,black 50%);
     background-size: 200% 200%;
     background-position: left top;
     color: var(--secondary-color);
@@ -22,8 +22,8 @@ body{
 }
 .theme-btn:hover{
     background-position: right bottom;
-    color: var(--primary-color);
-    box-shadow: 0 0 10px -3px var(--primary-color)
+    box-shadow: 0 0 10px -3px var(--primary-color);
+  
 }
 
 .text-primary{
@@ -31,6 +31,9 @@ body{
 }
 .text-secondary{
     color: var(--secondary-color) !important;
+}
+.bg-primary{
+    background: var(--primary-color) !important;
 }
 .bg-dark{
     background-color:var(--dark-color) !important;
@@ -48,12 +51,17 @@ body{
     transition: all 0.3s;
 }
 .hover-primary:hover{
-    background-color: var(--primary-color) !important;
+    background-color: black !important;
     color: var(--secondary-color) !important;
+    border: none;
 }
 .hover-primary:hover i{
     color: var(--secondary-color) !important;
 }
+.border-radius-x-y{
+    border-radius: 80px 0 80px 0;
+}
+
 nav .nav-link{
     font-family: "Cormorant Garamond", serif;
     color: #515151b9;
@@ -64,12 +72,12 @@ nav .active{
     font-weight: bolder;
     border-bottom: 2px solid rgb(59, 59, 59);
 }
-@media(max-width:600px){
-    .navbar{
-        background-color:black !important;
-    }
+@media(max-width:768px){
     header{
-        padding-top: 80px;
+        padding-top: 120px;
+    }
+    .top-header{
+        font-size: 12px;
     }
 }
 
@@ -209,17 +217,65 @@ nav .active{
     }
 }
 
+.apps img{
+    height: 100px;
+    width: 180px;   
+}
 
+.instaSection img{
+width: 20%;
+}
+.instaSection div{
+width: 20%;
+}
 
+@media (max-width:768px){
+    .instaSection img{
+        width: 50%;
+        }
+        .instaSection div{
+        width: 100%;
+        }
+        
+}
 
+@media (max-width:500px){
+    .apps img{
+        height: 80px;
+        width: 140px;   
+    }
+}
 
 
 
 
 .amenities>div{
-    height: 120px;
-    width: 200px;
+    height: 180px;
+    width: 160px;
+    transition: all 0.3s ;
+    border: 1px solid rgba(55, 55, 55, 0.587);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
 }
+.amenities p{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+}
+.amenities>div:hover{
+transform: translateY(-10px);
+background-color: black !important;
+color: white;
+}
+.amenities>div:hover img{
+    filter: invert(1);
+}
+
 .amenities img{
     height: 50px;
     width: 50px;
@@ -232,6 +288,8 @@ nav .active{
     }
     .amenities p{
         font-size: 14px !important; 
+        line-height: 18px;
+
     }
     .amenities img{
         height: 28px;

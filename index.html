@@ -29,8 +29,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+   <div class="position-fixed  z-3 w-100 ">
+    <div class="container-fluid top-header bg-black">
+      <div class="container text-white d-flex flex-wrap align-items-center justify-content-between py-1">
+        <div class="text-center">
+          <span><i class="fa-solid fa-phone mx-1"></i> +91 95944 41932 </span>
+          <span><i class="fa-solid fa-envelope mx-1"></i> info@hotelsinghs.in </span>
+        </div>
+        <div class="fs-5">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram mx-2"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </div>
+    </div>
     <nav
-      class="navbar navbar-expand-lg px-md-5 z-3 w-100 navbar-light bg-white position-fixed"
+      class="navbar shadow-sm navbar-expand-lg px-md-5 navbar-light bg-white "
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -67,16 +81,14 @@
               <a class="nav-link fs-4" href="#">Contact us </a>
             </li>
           </ul>
-          <div class="d-flex align-items-center">
-            <i class="fa-solid fa-phone mx-1 fs-2 text-primary"></i>
-            <h4 class="mx-3">+91 95944 41932</h4>
             <button class="theme-btn" type="submit">
               Book Now <i class="fa-solid fa-chevron-right fs-6"></i>
             </button>
-          </div>
+          
         </div>
       </div>
     </nav>
+   </div>
     <header>
       <div
         id="carouselExampleCaptions"
@@ -192,7 +204,7 @@
                 <option value="">2</option>
                 <option value="">3</option>
               </select>
-              <button>
+              <button class="hover-primary">
                 Search Now <i class="fa-solid fa-chevron-right fs-6"></i>
               </button>
             </div>
@@ -200,108 +212,16 @@
         </div>
       </div>
 
-      <h3 class="text-center ff-cormorant fs-1 fw-bolder text-primary py-md-3">Our Amazing Amenities</h3>
-      <div
-        class="container amenities d-flex flex-wrap ff-cormorant justify-content-around"
-      >
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/conferenceRoom.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Conference Room</p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/wifi.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Free Wi-Fi</p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/ledtv.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Smart LED TV</p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/ac.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Air Conditioning</p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/workSpace.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Work Space</p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/toiletriesKit.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Toiletries Kit</p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/teaCoffe.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Tea/Coffee Maker</p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/hotColdWater.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Hot/Cold Water</p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/roomService.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Room Service</p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/safetyLocker.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Safety Lockers <span class="text-primary">*</span></p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/miniFridge.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Mini Fridge <span class="text-primary">*</span></p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/laundryService.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Laundry Service <span class="text-primary">*</span></p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/vehicle.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Vehicle Parking </p>
-        </div>
-        <div
-          class="bg-white shadow-sm py-2 py-sm-3 py-md-4 m-2 m-md-3 text-center hover-primary"
-        >
-          <img src="./asset/amenities/generator.svg" alt="">
-          <p class="mb-0 fs-5 fw-bold">Full Generator Backup</p>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container py-5">
+      <div class="container pb-5">
+        <h5 class="mb-3 fs-1 text-center ff-cormorant fw-bolder text-black">About Company</h5>
         <div class="row">
           <div class="col-sm-4 mx-auto pt-5 pt-md-5">
             <img src="./asset/images/about.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 p-4 p-md-5">
-            <h5 class="mb-3 text-primary">About Company</h5>
-            <h3 class="ff-cormorant fw-bolder fs-1">
-             <span class="text-primary"> Welcome to Hotel Singhs -</span> Your Premier Boutique Hotel in Vashi Navi Mumbai
-            </h3>
+            <h1 class="ff-cormorant fw-bold  text-dark fs-1">
+             <span class="text-black fw-bolder"> Welcome to Hotel Singhs -</span> Your Premier Boutique Hotel in Vashi Navi Mumbai
+            </h1>
             <p>Welcome to Hotel Singhs, the premier boutique hotel in Vashi Navi Mumbai, where luxury and
               comfort converge in the heart of the city. Our mission is to provide a seamless and unforgettable
               experience for every guest, with a wide array of amenities designed for your utmost comfort and
@@ -323,60 +243,152 @@
             </button>
           </div>
         </div>
-      </section>
-
-
-      <section class="bg-secondary py-3 py-md-5"> 
-        <div class="container py-md-5">
-          <div class="row">
-          <div class="col-lg-5">
-            <div class="d-flex px-2 align-items-center justify-content-between">
-              <div>
-                <h3 class="ff-cormorant fs-1 fw-bold">Superior Room</h3>
-                <p>From <span class="text-primary">$185</span>/per night</p>
-              </div>
-              <i
-                class="fa-solid fa-arrow-right hover-primary p-3 fs-5 border rounded-5"
-              ></i>
-            </div>
-            <hr />
-            <div class="d-flex px-2 align-items-center justify-content-between">
-              <div>
-                <h3 class="ff-cormorant fs-1 fw-bold">Superior Room</h3>
-                <p>From <span class="text-primary">$185</span>/per night</p>
-              </div>
-              <i
-                class="fa-solid fa-arrow-right hover-primary p-3 fs-5 border rounded-5"
-              ></i>
-            </div>
-            <hr />
-            <div class="d-flex px-2 align-items-center justify-content-between">
-              <div>
-                <h3 class="ff-cormorant fs-1 fw-bold">Superior Room</h3>
-                <p>From <span class="text-primary">$185</span>/per night</p>
-              </div>
-              <i
-                class="fa-solid fa-arrow-right hover-primary p-3 fs-5 border rounded-5"
-              ></i>
-            </div>
-            <hr />
-            <div class="d-flex px-2 align-items-center justify-content-between">
-              <div>
-                <h3 class="ff-cormorant fs-1 fw-bold">Superior Room</h3>
-                <p>From <span class="text-primary">$185</span>/per night</p>
-              </div>
-              <i
-                class="fa-solid fa-arrow-right hover-primary p-3 fs-5 border rounded-5"
-              ></i>
-            </div>
-            <hr />
-          </div>
-          <div class="col-lg-7"></div>
+      <!-- <h2 class="text-center ff-cormorant fs-1 fw-bolder text-primary py-md-3">Premium Amenities for a Luxurious Stay</h2> -->
+      <div
+        class="container amenities d-flex flex-wrap ff-cormorant justify-content-around"
+      >
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/conferenceRoom.svg" alt="">
+          <p class="mb-0 ">Conference Room</p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/wifi.svg" alt="">
+          <p class="mb-0 ">Free Wi-Fi</p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/ledtv.svg" alt="">
+          <p class="mb-0 ">Smart LED TV</p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/ac.svg" alt="">
+          <p class="mb-0 ">Air Conditioning</p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/workSpace.svg" alt="">
+          <p class="mb-0 ">Work Space</p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/toiletriesKit.svg" alt="">
+          <p class="mb-0 ">Toiletries Kit</p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/teaCoffe.svg" alt="">
+          <p class="mb-0 ">Tea/Coffee Maker</p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/hotColdWater.svg" alt="">
+          <p class="mb-0 ">Hot/Cold Water</p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/roomService.svg" alt="">
+          <p class="mb-0 ">Room Service</p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/safetyLocker.svg" alt="">
+          <p class="mb-0 ">Safety Lockers <span class="text-primary">*</span></p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/miniFridge.svg" alt="">
+          <p class="mb-0 ">Mini Fridge <span class="text-primary">*</span></p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/laundryService.svg" alt="">
+          <p class="mb-0 ">Laundry Service <span class="text-primary">*</span></p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/vehicle.svg" alt="">
+          <p class="mb-0 ">Vehicle Parking </p>
+        </div>
+        <div
+          class="bg-white   py-2 py-sm-3 py-md-4   text-center"
+        >
+          <img src="./asset/amenities/generator.svg" alt="">
+          <p class="mb-0 ">Full Generator Backup</p>
         </div>
       </div>
     </section>
 
     <section>
+      
+      </section>
+
+
+      <section class="py-3 py-md-5"> 
+        <div class="container pb-3 pb-md-5">
+          <h2 class="text-center text-black ff-cormorant fs-1 fw-bolder py-3 py-md-5">Your Premier Boutique Hotel Experience</h2>
+          <div class="row">
+          <div class="col-lg-4">
+            <div class="d-flex px-2 align-items-center justify-content-between">
+              <div>
+                <h3 class="ff-cormorant fs-1 fw-bold">Deluxe Room</h3>
+                <p>From <span class="text-primary">Rs.2200</span>/per night</p>
+              </div>
+              <i
+                class="fa-solid fa-arrow-right hover-primary p-3 fs-5 border rounded-5"
+              ></i>
+            </div>
+            <hr />
+            <div class="d-flex px-2 align-items-center justify-content-between">
+              <div>
+                <h3 class="ff-cormorant fs-1 fw-bold">Super Deluxe Room</h3>
+                <p>From <span class="text-primary">Rs.2500</span>/per night</p>
+              </div>
+              <i
+                class="fa-solid fa-arrow-right hover-primary p-3 fs-5 border rounded-5"
+              ></i>
+            </div>
+            <hr />
+            <div class="d-flex px-2 align-items-center justify-content-between">
+              <div>
+                <h3 class="ff-cormorant fs-1 fw-bold">Executive Room</h3>
+                <p>From <span class="text-primary">Rs.3000</span>/per night</p>
+              </div>
+              <i
+                class="fa-solid fa-arrow-right hover-primary p-3 fs-5 border rounded-5"
+              ></i>
+            </div>
+            <hr />
+            
+          </div>
+          <div class="col-lg-8 position-relative">
+            <img src="./asset/images/rooms.jpg" class="col-12 col-md-10 d-block ms-md-auto " alt="">
+            <div class="position-absolute border-radius-x-y p-3  py-md-4 text px-md-5 bg-primary top-50 mx-md-5 col-md-6 text-white ff-cormorant fw-bold">
+                <p class="fs-4">Intimate luxury awaits in our boutique hotel&#39;s cozy rooms, where comfort and style embrace in
+                  perfect harmony. Unwind and indulge in a tranquil escape like no other.</p>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-secondary ">
       <div class="container pb-5">
         <h2
           class="text-center col-10 col-md-7 py-3 py-md-5 col-lg-5 mx-auto ff-cormorant fw-bold fs-1"
@@ -384,59 +396,38 @@
           We Provide Amazing Service to Enjoy Your Days
         </h2>
         <div class="owl-carousel">
-          <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>01</p>
-            <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
-            <p class="my-3">
-              Blinded by desirec that cannot foresies trouble bounde
+          <div class="bg-light shadow-sm p-3 p-md-4 m-3 hover-primary">
+            <img src="./asset/services/wifi.webp" class="img-fluid rounded-3" alt="">
+            <h4 class="ff-cormorant fw-bold fs-3 py-3">Free Wifi</h4>
+            <p class="mb-3">
+              Stay connected seamlessly with our high-speed WiFi during your hotel stay.
             </p>
-            <i class="fa-solid fa-person-swimming text-primary fs-1"></i>
+          </div>
+          
+          <div class="bg-light shadow-sm p-3 p-md-4 m-3 hover-primary">
+            <img src="./asset/services/checkIn.webp" class="img-fluid rounded-3" alt="">
+            <h4 class="ff-cormorant fw-bold fs-3 py-3">24/7 Check-In</h4>
+            <p class="mb-3">
+              Effortless check-in to start your stay with ease and comfort.
+            </p>
           </div>
 
-          <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>02</p>
-            <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
-            <p class="my-3">
-              Blinded by desirec that cannot foresies trouble bounde
+          <div class="bg-light shadow-sm p-3 p-md-4 m-3 hover-primary">
+            <img src="./asset/services/parking.webp" class="img-fluid rounded-3" alt="">
+            <h4 class="ff-cormorant fw-bold fs-3 py-3">Parking</h4>
+            <p class="mb-3">
+              Convenient parking options available to ensure your stay is hassle-free.
             </p>
-            <i class="fa-solid fa-person-swimming text-primary fs-1"></i>
           </div>
 
-          <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>03</p>
-            <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
-            <p class="my-3">
-              Blinded by desirec that cannot foresies trouble bounde
+          <div class="bg-light shadow-sm p-3 p-md-4 m-3 hover-primary">
+            <img src="./asset/services/breakFast.webp" class="img-fluid rounded-3" alt="">
+            <h4 class="ff-cormorant fw-bold fs-3 py-3">Breakfast</h4>
+            <p class="mb-3">
+              Start your day right with a delightful breakfast at our hotel.
             </p>
-            <i class="fa-solid fa-person-swimming text-primary fs-1"></i>
           </div>
 
-          <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>04</p>
-            <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
-            <p class="my-3">
-              Blinded by desirec that cannot foresies trouble bounde
-            </p>
-            <i class="fa-solid fa-person-swimming text-primary fs-1"></i>
-          </div>
-
-          <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>05</p>
-            <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
-            <p class="my-3">
-              Blinded by desirec that cannot foresies trouble bounde
-            </p>
-            <i class="fa-solid fa-person-swimming text-primary fs-1"></i>
-          </div>
-
-          <div class="bg-secondary shadow-sm p-3 p-md-5 m-3 hover-primary">
-            <p>06</p>
-            <h4 class="ff-cormorant fw-bold fs-3">Swimming Pool</h4>
-            <p class="my-3">
-              Blinded by desirec that cannot foresies trouble bounde
-            </p>
-            <i class="fa-solid fa-person-swimming text-primary fs-1"></i>
-          </div>
         </div>
       </div>
     </section>
@@ -487,33 +478,52 @@
         </div>
       </div>
     </section>
-
-    <section class="container py-3 py-md-5 text-lg-center">
-      <h5 class="text-primary">Our Testimonials</h5>
-      <h3 class="fs-1 ff-cormorant fw-bold">What Our Customer Say Us</h3>
+ 
+    <section class="container py-3 py-md-5 ">
+      <h2 class="ff-cormorant fs-1 fw-bolder text-center">We're Available on all your go-to Apps!</h2>
+      <div class="d-flex  apps py-5 justify-content-center justify-content-md-between flex-wrap">
+          <img src="./asset/apps/agoda.png" alt="">
+          <img src="./asset/apps/makemytrip.png" alt="">
+          <img src="./asset/apps/booking.png" alt="">
+          <img src="./asset/apps/goibibo.png" alt="">
+      </div>
     </section>
 
+    <section>
+      <div class="d-flex flex-wrap ff-cormorant fw-bolder  bg-black  instaSection align-items-center">
+            
+            <img src="./asset/gallery/image-1.webp" alt="">
+            <img src="./asset/gallery/image-1.webp" alt="">
+            <div class="text-center py-4 text-white">
+              <i class="fa-brands fs-2  fa-instagram"></i>
+              <h3 class="py-2 fs-2">Follow Our Instagram</h3>
+              <p class="fs-4 mb-2">Make A Call</p>
+              <p class="fs-3"> +91 95944 41932 </p>
+            </div>
+            <img src="./asset/gallery/image-1.webp" alt="">
+            <img src="./asset/gallery/image-1.webp" alt="">
+         </div>
+    </section>
     <footer class="bg-dark text-white">
-      <div class="container">
-        <div class="d-flex flex-wrap justify-content-evenly py-3 py-md-5">
+      <div class="container pt-3 pt-md-5">
+        <!-- <div class="d-flex flex-wrap justify-content-evenly py-3 py-md-5">
           <img src="./asset/gallery/image-1.webp" alt="" />
           <img src="./asset/gallery/image-2.webp" alt="" />
           <img src="./asset/gallery/image-3.webp" alt="" />
           <img src="./asset/gallery/image-4.webp" alt="" />
           <img src="./asset/gallery/image-5.webp" alt="" />
           <img src="./asset/gallery/image-6.webp" alt="" />
-        </div>
+        </div> -->
         <div class="row">
           <div class="col-lg-2">
             <h6 class="fs-3 mb-4">Quick Links</h6>
-            <p class="fw-bold">About company</p>
-            <p class="fw-bold">History</p>
-            <p class="fw-bold">Team Member</p>
-            <p class="fw-bold">Latest News</p>
+            <p class="fw-bold">About us</p>
+            <p class="fw-bold">Rooms</p>
+            <p class="fw-bold">Galleryr</p>
             <p class="fw-bold">Contact Us</p>
           </div>
           <div class="col-lg-8 text-center">
-            <h3 class="fs-1">Join Our Newsletter</h3>
+            <!-- <h3 class="fs-1">Join Our Newsletter</h3>
             <div class="col-md-8 mx-auto mt-5 bg-white d-flex">
               <input
                 type="text"
@@ -525,16 +535,16 @@
               >
                 Subscribe <i class="fa-solid fa-chevron-right fs-6 m-1"></i>
               </button>
-            </div>
-            <img src="./asset/Singhs Logo.webp" class="col-md-4 my-3" alt="" />
+            </div> -->
+            <img src="./asset/Singhs Logo.webp" class="col-md-6 my-3" alt="" />
           </div>
           <div class="col-lg-2">
-            <h6 class="fs-3 mb-4">Features</h6>
-            <p class="fw-bold">Free Transportation</p>
-            <p class="fw-bold">GYM & Fitness Care</p>
-            <p class="fw-bold">SPA Treatment</p>
-            <p class="fw-bold">Food & Drinks</p>
-            <p class="fw-bold">Breakfast</p>
+            <h6 class="fs-3">Address</h6>
+            <p class="fw-bold">Plot # 86-87, Sector 19-C, 
+              Vashi, Navi Mumbai - 400703</p>
+            <h6 class="fs-3 mt-4">Phone</h6>
+            <p class="fw-bold mb-0">+91 9594441932</p>
+            <p class="fw-bold">+91 9321441932</p>
           </div>
         </div>
       </div>
@@ -543,7 +553,7 @@
       <div
         class="container fs-6 py-2 d-flex flex-wrap justify-content-center justify-content-lg-between"
       >
-        <p class="m-0">© 2023 QOMFORT. All Rights Reserved.</p>
+        <p class="m-0">© 2024 hotelsinghs. All Rights Reserved.</p>
         <p class="m-0 d-flex col-md-6 col-lg-4 justify-content-around">
           <a href="" class="nav-link">Terms</a>
           <a href="" class="nav-link">Privacy Policy</a>
